@@ -1,4 +1,4 @@
-Descrição do Projeto: Calculadora de Preço de Venda
+###Descrição do Projeto: Calculadora de Preço de Venda
 
 A Calculadora de Preço de Venda é um projeto desenvolvido utilizando HTML, CSS e JavaScript puro (Vanilla.js). O objetivo deste projeto é fornecer uma ferramenta simples e eficiente para calcular o preço de venda de um produto com base no custo de produção, markup desejado e custo das matérias-primas utilizadas na sua fabricação.
 
