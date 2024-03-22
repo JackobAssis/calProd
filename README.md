@@ -10,7 +10,7 @@ Gerenciamento de Matérias-Primas: Além disso, a calculadora permite incluir ma
 Estilo Responsivo e Moderno: A interface da calculadora foi desenvolvida com um estilo responsivo e moderno, oferecendo uma experiência agradável ao usuário em diferentes dispositivos e navegadores.
 
 Como Usar
-Clone o Repositório: Faça um clone do repositório para o seu computador utilizando o comando git clone https://github.com/JackobAssis/calProd.
+Clone o Repositório: Faça um clone do repositório para o seu computador utilizando o comando git clone https://github.com/JackobAssis/calProd.git
 
 Abra o Arquivo HTML: Abra o arquivo index.html em um navegador web para acessar a calculadora.
 
