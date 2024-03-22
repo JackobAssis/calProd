@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Preço de Venda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Preço de Venda</h1>
+        
+        <label for="custo">Custo de Produção:</label>
+        <input type="number" id="custo" placeholder="Informe o custo">
+        
+        <label for="markup">Markup (%):</label>
+        <input type="number" id="markup" placeholder="Informe o markup">
+        
+        <h2>Matérias-Primas</h2>
+        <div id="materias">
+            <div class="materia">
+                <label for="materiaA">Materia A:</label>
+                <input type="number" id="materiaA" placeholder="Quantidade utilizada">
+                <input type="number" id="custoA" placeholder="Custo por unidade">
+                <div id="resultadoA"></div>
+            </div>
+            <div class="materia">
+                <label for="materiaB">Materia B:</label>
+                <input type="number" id="materiaB" placeholder="Quantidade utilizada">
+                <input type="number" id="custoB" placeholder="Custo por unidade">
+                <div id="resultadoB"></div>
+            </div>
+            <div class="materia">
+                <label for="materiaC">Materia C:</label>
+                <input type="number" id="materiaC" placeholder="Quantidade utilizada">
+                <input type="number" id="custoC" placeholder="Custo por unidade">
+                <div id="resultadoC"></div>
+            </div>
+        </div>
+        
+        <button onclick="calcularPrecoVenda()">Calcular Preço de Venda</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
